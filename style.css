@@ -1,0 +1,97 @@
+.header {
+  background-color: #949494;
+  text-align: center;
+  padding: 10px;
+}
+/* Coluna geral */
+.column {
+  float: inline-start;
+  width: 20%;
+}
+
+.topnav {
+ overflow: hidden;
+ background-color: #333;
+}
+
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #949494;
+  color: black;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #949494;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #3b3b3b;
+  color: white;
+}
+ /* Coluna da imagem */
+.columnI {
+  float: left;
+  width: 30%;
+  height: 30%;
+}
+/* Coluna do texto */
+.columnT {
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%;
+  height: 60%;
+}
+
+.button {
+  background-color: rgb(194, 194, 194);
+  border: 2px solid #555555;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+body {
+  background-color: #000000;
+}
+
+p {
+  color: white;
+}
+
+h2{
+  color: white
+}
+
+img {
+  padding-top: 5px;}
